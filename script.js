@@ -9,3 +9,6 @@ function greeting(name) {
 greeting("Janya");
 
 let newName= document.getElementById("greeting").value;
+const test="testing";
+const test1="testing-again";
+const test2="testing-again";
