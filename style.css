@@ -23,3 +23,52 @@ div#header{
     padding: 5em 1em 5em 1em;
     color: white;
 }
+
+.navbar{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 5em;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    transition: 0.3s;
+    color: rgb(119, 119, 251);
+}
+
+.nav-links li a:hover{
+    background-color:rgb(134, 0, 146);
+}
+
+.title{
+    text-align: center;
+    padding: 1em
+}
+.current{
+    text-decoration: underline dotted rgb(183, 0, 255) 0.3em;
+}
+.accordion-header{
+    width: 100%;
+    Background-color: purple;
+    padding: 1em 1em 1em 3em;
+    text-align: left;
+    font-size: 1.1em;
+    color: white;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.accordion-content{
+    display: none;
+}
+.accordion-header:hover{
+    Background-color: rgb(82, 0, 82);
+}
