@@ -72,3 +72,51 @@ div#header{
 .accordion-header:hover{
     Background-color: rgb(82, 0, 82);
 }
+
+.text {
+    font-size: 1rem;
+}
+
+.hidden { 
+    display: none !important;/**"!important is not a coment it make the hidden have more importance or somting like that**/
+}
+
+.blog-entry{
+    display: flex;
+    align-items: center;
+    gap: 2em; 
+    padding: 2%;
+    margin-bottom: 2em;
+}
+
+.blog-entry img{
+    width: 40%;
+    border-radius: 0 1.5em 1.5em 0;
+}
+
+#enter-password{
+    text-align: center;
+}
+
+#enter-password input{
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    border: 0;
+    padding: 0.2em;
+    width: 40%;
+}
+
+#enter-password button{
+    font-size: 1.3rem;
+    padding: 0.3em;
+    border-radius: 0.5em;
+    width: 7%;
+}
+
+#password-field{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+
